@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>31319</title>
+  </head>
+  <body>
+    <form action="https://formspree.io/f/mayadrqd" method="POST">
+      <label for="fname">Podaj imię </label>
+      <input type="text" name="fname" id="fname" placeholder="Jan" /><br />
+      <label for="sname">Podaj nazwisko</label>
+      <input type="text" name="sname" id="sname" placeholder="Kowalski" /><br />
+      <label for="email">Podaj adres e-mail</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="jan@kowalski.pl"
+        required
+      /><br />
+      <label for="phoneNr">Podaj nr telefonu</label>
+      <input
+        type="tel"
+        name="phoneNr"
+        id="phoneNr"
+        placeholder="123456789"
+      /><br />
+      <label for="selectCity">Wybierz miasto:</label>
+      <select name="city" id="selectCity">
+        <option value="Kraków">Kraków</option>
+        <option value="Warszawa">Warszawa</option>
+        <option value="Gdańsk">Gdańsk</option>
+      </select>
+      <br />
+      <label for="radio1">M</label>
+      <input type="radio" name="sex" id="radio1" value="Mężczyzna" />
+      <label for="radio2">K</label>
+      <input type="radio" name="sex" id="radio2" value="Kobieta" />
+      <br />
+      <label for="checkbox">Zgoda RODO</label>
+      <input type="checkbox" name="policy" id="checkbox" />
+      <br />
+      <textarea
+        name="message"
+        id="message"
+        placeholder="Wpisz wiadomość"
+      ></textarea>
+      <br />
+      <input type="submit" value="Wyślij formularz" />
+    </form>
+  </body>
+</html>
