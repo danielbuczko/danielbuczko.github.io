@@ -1,0 +1,29 @@
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  margin: auto;
+  margin-bottom: 15px;
+  transition-duration: 1s;
+  transition-property: all;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+.two {
+  background-color: green;
+}
+.three {
+  background-color: blue;
+}
+.one:hover {
+  width: 300px;
+}
+
+.two:hover {
+  height: 300px;
+}
+
+.three:hover {
+  width: 300px;
+  height: 300px;
+}
